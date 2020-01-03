@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vistas.NuevaFamiliaActivity">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:paddingRight="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Codigo Familiar"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtV_CodigoFamiliar_nuevaFamilia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/txtV_CrearCodigo_nuevaFamilia"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:clickable="true"
+            android:text="Crear Codigo Aleatorio"
+            android:textAlignment="center"
+            android:textIsSelectable="true"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtV_NombreFamilia_nuevaFamilia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="Nombre Familia"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btnV_CrearFamilia_nuevaFamilia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="Crear nueva Familia" />
+
+        <Button
+            android:id="@+id/btnV_Volver_nuevaFamilia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="Volver" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

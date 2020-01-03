@@ -1,0 +1,29 @@
+<resources>
+    <string-array name="spRegistroDeporteFav">
+        <item>Basquet</item>
+        <item>Futbol</item>
+        <item>Tennis</item>
+        <item>Pong Ping</item>
+    </string-array>
+    <string name="app_name">aplicacionClases</string>
+    <string name="registrar_usuario">Registrar usuario</string>
+    <string name="ver_usuarios">Ver Usuarios</string>
+    <string name="registro_usuarios">Registro Usuarios</string>
+    <string name="mostrar_usuario">Mostrar Usuario</string>
+    <string name="listar_usuarios">Listar Usuarios</string>
+    <string name="registro_de_usuarios">Registro de Usuarios</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="rut">Rut</string>
+    <string name="edad">Edad</string>
+    <string name="deporte_favorito">Deporte Favorito</string>
+    <string name="vacio">---</string>
+    <string name="usuarios">usuarios</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="volver">Volver</string>
+    <string name="registrar">Registrar</string>
+    <string name="femenino">Femenino</string>
+    <string name="masculino">Masculino</string>
+    <string name="title_activity_ver_usuarios">VerUsuariosActivity</string>
+    <string name="title_activity_teste">teste</string>
+</resources>

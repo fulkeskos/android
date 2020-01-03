@@ -1,0 +1,10 @@
+<resources>
+    <string-array name="tiposProductos">
+        <item>Congelado</item>
+        <item>Fideos</item>
+        <item>Carne</item>
+    </string-array>
+    >
+    <string name="app_name">RegistroSupermercado</string>
+
+</resources>

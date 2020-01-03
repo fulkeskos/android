@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtV_nombreUsuario_menuCarro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Texto prueba"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinV_listaCarros_menuCarro"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="15dp" />
+
+        <ListView
+            android:id="@+id/listV_listaObjetos_MenuCarro"
+            android:layout_width="wrap_content"
+            android:layout_height="228dp"
+            android:layout_marginTop="20dp">
+
+        </ListView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp">
+
+            <Button
+                android:id="@+id/btnV_agregarCarro_menuCarro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="+" />
+
+            <Button
+                android:id="@+id/btnV_borrarCarro_menuCarro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="X  " />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnV_CerrarSesion_menuCarro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cerrar Sesion" />
+    </LinearLayout>
+</RelativeLayout>

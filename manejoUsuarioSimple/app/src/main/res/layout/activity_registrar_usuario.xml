@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrarUsuarioActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrar Usuario"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/txtV_nombreRegistro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Nombre"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/txtV_RutRegistro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Rut"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <Switch
+            android:id="@+id/swtV_Algo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Switch" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Deportes" />
+
+        <Spinner
+            android:id="@+id/spnV_Derporte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/cboDeportes"/>
+
+        <CheckBox
+            android:id="@+id/chekV_Casado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Casado" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sexo:" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/rbtnV_Hombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Hombre" />
+
+            <RadioButton
+                android:id="@+id/rbtnV_Mujer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mujer" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnV_RegistrarRegistro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrar" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnV_MostrarUsuRegistro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Mostrar Usuario" />
+
+            <Button
+                android:id="@+id/btnV_ListarUsuRegistros"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Listar Usuarios" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnV_VolverDesdeRegistro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Volver" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cantidad Registros"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/lblV_CantidadRegistros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="---"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+    </LinearLayout>
+</RelativeLayout>
